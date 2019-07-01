@@ -24,7 +24,7 @@ function destructivelyRemoveFirstKitten(name)
 
 function appendKitten(name)
 {
-  
+  console.log(kittens)
 }
 
 function prependKitten(name)
