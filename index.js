@@ -24,12 +24,12 @@ function destructivelyRemoveFirstKitten(name)
 
 function appendKitten(name)
 {
-  console.log(kittens.concat(name))
+  return [...kittens, name];
 }
 
 function prependKitten(name)
 {
-  console.log()
+  return [name, ...kittens];
 }
 
 function removeLastKitten(name)
